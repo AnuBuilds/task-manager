@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import axios from 'axios';
 import { AuthService } from './auth.service';
 
-const API = 'http://127.0.0.1:8000';
+const API = 'https://task-manager-ten-kappa-10.vercel.app';
 
 @Injectable({
   providedIn: 'root'
